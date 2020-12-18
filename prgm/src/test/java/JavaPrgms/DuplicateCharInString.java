@@ -10,7 +10,7 @@ public class DuplicateCharInString {
 		int len=str.length();
 		char ch[]= str.toCharArray();
 		
-		Set<Character> dupli= new HashSet<Character>();
+		Set<Character> dupli= new HashSet<Character>(); //HashSet doesn't allow duplicate characters
 		
 		for(int i=0;i<len;i++) {
 			for(int j=i+1;j<len;j++) {
